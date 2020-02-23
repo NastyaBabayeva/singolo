@@ -1,0 +1,317 @@
+html {
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(assets/Lato-Regular.ttf);
+   }
+
+body {
+    font-size: 1.6rem;
+    font-family: Lato;
+}
+
+.wrapper {
+    max-width: 1020px;
+    height: 1195px;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.wrapper .header_navigation {
+    width: 1020px;
+    height: 90px;
+    background-color: #2d303a;
+}
+
+.header_navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_navigation img {
+    padding: 35px 0px 35px;
+    margin-left: 40px;
+}
+
+.navigation {
+    padding: 21px 0px 35px;
+    margin-right: 38px;
+
+}
+
+.navigation li {
+    color: #FFFFFF;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.navigation li:hover {
+    color: #F06C64;
+    cursor: pointer;
+}
+
+.navigation .point {
+    color: gray;
+    opacity: .6; 
+}
+
+.navigation h1 {
+    color: #F06C64;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 6px;
+}
+
+
+.bottom_header {
+    width: 1020px;
+    height: 6px;
+    background-color: #323746;
+    margin-top: 90px;
+    position: absolute;
+}
+
+.slider_fon {
+    width: 1020px;
+    height: 600px;
+    background-color: #f06c64;
+    position: absolute;
+    margin-top: 96px;
+}
+
+.button_left {
+    position: absolute;
+    margin-left: 42px;
+    padding-top: 377px;
+    cursor: pointer;
+}
+
+.button_right {
+    position: absolute;
+    margin-left: 964px;
+    padding-top: 377px;
+    cursor: pointer;
+}
+
+.iphone_vertical {
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 79px;
+}
+
+.iphone_vertical img {
+    height: 580px;
+}
+
+.iphone_horizontal {
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 165px;
+}
+
+.iphone_horizontal img {
+    width: 580px;
+}
+
+.bottom_slider {
+    position: absolute;
+    width: 1020px;
+    height: 5px;
+    background-color: #ea676b;
+    margin-top: 690px;
+}
+
+.services_info {
+    position: absolute;
+    width: 1020px;
+    height: 495px;
+    background-color: #f2f2f2;
+    margin-top: 697px;
+}
+
+.bottom_services {
+    position: absolute;
+    width: 1020px;
+    height: 6px;
+    background-color: #ffffff;
+    margin-top: 302px;
+}
+
+.services_info h1 {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    padding-left: 41px;
+    margin-top: 68px;
+
+}
+
+.services_info p {
+    color: #767e9e;
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 27px;
+    margin-left: 41px;
+    
+}
+
+.icons h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+}
+
+.icons p {
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-weight: 100px;
+    text-align: justify;
+}
+
+.pen {
+    float: left;
+    width: 300px;
+    height: 90px;
+    position: absolute;
+    top: 215px;
+    left: 40px;
+}
+ 
+.pen h3 {
+    position: absolute;
+    left: 80px;
+    top: -20px;
+}
+
+.pen p {
+    margin-left: 80px;
+}
+
+.pen img {
+    position: absolute;
+    border-radius: 29px;
+    
+}
+
+.bulb {
+    position: absolute;
+    float: left;
+    width: 298px;
+    height: 85px;
+    top: 215px;
+    left: 360px;
+}
+
+.bulb img {
+    position: absolute;
+    border-radius: 29px;
+}
+
+.bulb h3 {
+    position: absolute;
+    left: 80px;
+    top: -20px;
+}
+
+.bulb p {
+    margin-left: 80px;
+}
+
+.heart {
+    position: absolute;
+    float: left;
+    width: 298px;
+    height: 85px;
+    top: 215px;
+    left: 680px;
+}
+
+.heart img {
+    position: absolute;
+}
+
+.heart h3 {
+    position: absolute;
+    left: 80px;
+    top: -20px;
+}
+
+.heart p {
+    margin-left: 80px;
+}
+
+.phone {
+    position: absolute;
+    float: left;
+    width: 298px;
+    height: 85px;
+    top: 340px;
+    left: 40px;
+}
+
+.phone img {
+    position: absolute;
+}
+
+.phone h3 {
+    position: absolute;
+    left: 80px;
+    top: -20px;
+}
+
+.phone p {
+    margin-left: 80px;
+}
+
+.bubble {
+    position: absolute;
+    float: left;
+    width: 298px;
+    height: 85px;
+    top: 340px;
+    left: 360px;
+}
+
+.bubble img {
+    position: absolute;
+}
+
+.bubble h3 {
+    position: absolute;
+    left: 80px;
+    top: -20px;
+}
+
+.bubble p {
+    margin-left: 80px;
+}
+
+.star {
+    position: absolute;
+    float: left;
+    width: 298px;
+    height: 85px;
+    top: 340px;
+    left: 680px;
+}
+
+.star img {
+    position: absolute;
+}
+
+.star h3 {
+    position: absolute;
+    left: 80px;
+    top: -20px;
+}
+
+.star p {
+    margin-left: 80px;
+}
